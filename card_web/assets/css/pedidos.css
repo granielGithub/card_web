@@ -1,0 +1,95 @@
+/* Tabla de detalle pedido */
+.table {
+    width: 65%;
+    float: left;
+    text-align: center;
+}
+.shipAddr {
+    width: 30%;
+    float: left;
+    margin-left: 30px;
+}
+.footBtn {
+    width: 95%;
+    float: left;
+}
+
+
+/* Estilos para el Aside de pago */
+.aside_pagos {
+    background-color: #fff;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    margin-right:1.5%;
+    float: left;
+    background:#fff;
+    border-radius: 5px;
+    background:#fff;
+    width: 100%;
+    margin: 20px 50px;
+    display: block;
+    text-decoration:none;
+
+
+}
+/* Estilos para el formulario de pago */
+input {
+    font-size: 14px;
+    color: #4b4b4d;
+    width: 100%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+input:focus, textarea:focus {
+    border: 1px solid #12a367;
+}
+
+select {
+    color: #4b4b4d;
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+
+.pagar[type="submit"] {
+    width: 200px;
+    margin-top: 10px;
+    cursor: pointer;
+    background: #12a367;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-right: 45%;
+}
+
+.pagar[type="submit"]:hover {
+    background: #12a367;
+}
+
+.div_pago {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.div_pago img {
+    position: relative;
+    top: 7px;
+}
+
+label {
+    display: block;
+}
+
+.form-pago {
+    margin-left: 45%;
+}
+
+#eliminar{
+    width: 50px;
+    height: 50px;
+}

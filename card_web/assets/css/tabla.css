@@ -1,0 +1,27 @@
+/************TABLA************/
+.tabla_ventas{
+    background: #a0e58fb4;
+    margin-top: 20px;
+    text-align: center;
+    border-collapse: collapse;
+    width: 600px;
+    margin: auto;
+    margin-top: 10px;
+}
+.tabla_ventas td{
+    border: 1px solid #ffffff;
+    padding: 15px;
+}
+.tabla_ventas thead{
+    color: #fff;
+    background: #12a367;
+}
+.datos{
+    font-size: 18px;
+}
+.img_ganancias{
+    display: flex;
+    margin: auto;
+    width: 240px; 
+    height: 200px;
+}

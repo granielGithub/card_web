@@ -1,0 +1,213 @@
+/****** Estilo general del cuerpo del documento *******/
+body{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/******** Estilos para los formularios *******/
+form{
+	position: relative;
+	left: 35%;
+	width: 25%;
+	margin: 20px;
+	padding: 20px;
+}
+fieldset{
+	padding: 15px;
+}
+label{
+	font-size: 14px;
+	display: block;
+	width: 100%;
+}
+textarea{
+	resize: vertical;
+	max-height: 300px;
+	min-height: 100px;
+}
+input, textarea, select{
+	color: #4b4b4d;
+	font-size: 14px;
+	margin-bottom: 20px;
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+input:focus, textarea:focus{
+	border: 1px solid #1668C4;
+}
+
+/********BOTONES PARA LAS TABLAS*********/
+/*Boton Ingresar*/
+.ingresar[type="submit"]{
+	margin-top: 10px;
+	cursor: pointer;
+	background: #12a367;
+	color: #fff;
+	border: none;
+	border-radius: 10px;
+	width: 50%;
+	margin-left: 25%;
+}
+.ingresar[type="submit"]:hover{
+	background: #15bb76;
+}
+/*Boton actualizar*/
+.actualizar[type="submit"]{
+	margin-top: 5px;
+	cursor: pointer;
+	background: #12a367;
+	color: #fff;
+	border: none;
+	border-radius: 10px;
+	width: 50%;
+	margin-left: 25%;
+}
+.actualizar[type="submit"]:hover{
+	background: #15bb76;
+}
+/*Boton eliminar*/
+.eliminar[type="submit"]{
+	margin-top: 10px;
+	cursor: pointer;
+	background: #e04c27;
+	color: #fff;
+	border: none;
+	border-radius: 50px;
+}
+.eliminar[type="submit"]:hover{
+	background: #ff633c;
+}
+/*Label de clave*/
+.clave{
+	font-weight: bold;
+	color: #fa5d49;
+	margin-bottom: 10px; 
+	margin-top: 0px;
+}
+
+/**********HEADER************/
+.nav{
+	width: 560px;
+	padding: 15px;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 1.5rem;
+	color: #fff;
+    background: #ee9c03;
+    overflow: hidden;
+	position: relative;
+	left: 30%;
+}
+
+/************TABLA************/
+.tabla_articulos{
+	background: #c0c2fd;
+	margin-top: 20px;
+	text-align: center;
+	border-collapse: collapse;
+	width: 1200px;
+	margin: auto;
+	margin-top: 10px;
+}
+.tabla_articulos td{
+	border: 1px solid #ffffff;
+	padding: 15px;
+}
+.tabla_articulos thead{
+	color: #fff;
+	background: #12a367;
+}
+
+/**********OTROS BOTONES***********/
+.editar, .eliminar{
+	border-radius: 50%;
+}
+.mostrar{
+	border-radius: 40%;
+}
+/*Boton agregar*/
+.agregar {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	cursor: pointer;
+	background: #12a367;
+	color: #fff;
+    padding: 15px 25px;
+    text-decoration: none;
+	border-radius: 5px;
+	display: flex;
+    justify-content: center;
+	width: 100px;
+	margin-left: 45%;
+}
+
+/*Boton volver*/
+.volver {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	cursor: pointer;
+	background: #12a367;
+	color: #fff;
+    padding: 15px 25px;
+    text-decoration: none;
+	border-radius: 5px;
+	display: flex;
+    justify-content: center;
+	width: 100px;
+	margin-left: 45%;
+}
+
+/*Boton volver de la pagina actualizar*/
+.volverv2 {
+	margin-top: 5px;
+	margin-bottom: 30px;
+	cursor: pointer;
+	background: #12a367;
+	color: #fff;
+    padding: 10px 10px;
+    text-decoration: none;
+	border-radius: 10px;
+	display: flex;
+    justify-content: center;
+	width: 46%;
+	margin-left: 25%;
+}
+
+/*Boton regresar*/
+.regresar{
+	position: relative;
+	left: 5%;
+}
+.regresar img:hover{
+	width: 62px;
+	height: 52px;
+}
+
+.regresar2 img{
+	position: relative;
+	left: 30%;
+	margin-top: 10px;
+}
+.regresar2 img:hover{
+	width: 62px;
+	height: 52px;
+}
+
+/*Boton de actualizar existencias*/
+.actualizar_existencia{
+	text-decoration: none;
+	padding: 8px;
+	margin-top: 10px;
+	cursor: pointer;
+	background: #12a367;
+	color: #fff;
+	border: none;
+	border-radius: 50px;
+	position: relative;
+	left: 25%;
+}
+.actualizar_existencia:hover{
+	background: #15bb76;
+}
